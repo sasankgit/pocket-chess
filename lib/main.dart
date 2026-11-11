@@ -45,8 +45,8 @@ class _HomePageState extends State<HomePage> {
   InterstitialAd? _interstitial;
   bool _showingInterstitial = false;
   bool _pendingHomeAd = true;
-  static const bannerId = 'ca-app-pub-3940256099942544/6300978111';
-  static const interstitialId = 'ca-app-pub-3940256099942544/1033173712';
+  static const bannerId = 'ca-app-pub-7422399256358629/7977747610';
+  static const interstitialId = 'ca-app-pub-7422399256358629/7490662452';
 
   @override
   void initState() {
@@ -145,6 +145,7 @@ class _HomePageState extends State<HomePage> {
       body: SafeArea(
         child: Column(
           children: [
+            const _BannerAd(),
             Expanded(
               child: Center(
                 child: SingleChildScrollView(

@@ -9,4 +9,4 @@ flutter pub get
 flutter run
 ```
 
-The current AdMob application and ad unit IDs are Google's sample test IDs. Replace them with IDs from your AdMob account before publishing. The IDs are configured in `android/app/src/main/AndroidManifest.xml` and `lib/main.dart`.
+The AdMob application ID and banner/interstitial ad unit IDs are configured in `android/app/src/main/AndroidManifest.xml` and `lib/main.dart`.

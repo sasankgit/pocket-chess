@@ -1,4 +1,4 @@
-package com.example.chess2player
+package com.neverlos.chess2player
 
 import io.flutter.embedding.android.FlutterActivity
 
